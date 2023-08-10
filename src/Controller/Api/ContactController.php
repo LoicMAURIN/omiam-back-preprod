@@ -26,7 +26,7 @@ class ContactController extends ApiController
 
     public function __construct(
         TokenStorageInterface $token,
-        SerializerInterface $serializer,
+        SerializerInterface $serializer
     ) {
         $this->tokenService = $token;
         $this->serializer = $serializer;
