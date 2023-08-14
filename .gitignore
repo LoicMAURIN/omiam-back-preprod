@@ -4,8 +4,9 @@
 /.env.test
 /.env.local
 /.env.*.local
-/.env.*
+/.env.*.test
 .env*
+.env.*
 .env.test
 *.env
 *.env.test
